@@ -612,7 +612,7 @@ a h3{
  
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
-@media only screen and (min-width: 500px) and (max-width: 1300px) {
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
     #Home-ball-2{
     /* display: none; */
     }
@@ -628,7 +628,7 @@ a h3{
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px){
+@media only screen and (min-width: 320px) and (max-width: 800px){
    .Home-img{
     display: none;
 }
@@ -716,7 +716,7 @@ nav{
  }
 }
 
-@media only screen and (max-width: 510px){
+@media only screen and (max-width: 320px){
     #Home-btn,#About-btn ,#Contact-btn{
   
         width: 200px;
@@ -895,12 +895,14 @@ input , textarea{
   border: 4px solid #ff0e72;
   width: 55vw;
   height: 55px;
+    font-size:25px
 }
 textarea{
   background: transparent;
   border: 4px solid #ff0e72;
   width: 110vw;
   height: 250px;
+  font-size:25px;
 }
   
   
